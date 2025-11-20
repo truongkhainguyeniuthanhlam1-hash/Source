@@ -426,7 +426,7 @@ end
 -- ==================================================
 -- ⚙️ EMBED FULL (low/high/special)
 -- ==================================================
-llocal function makePayload(list, color, placeId, jobId)
+local function makePayload(list, color, placeId, jobId)
     local players = tostring(#Players:GetPlayers()) .. "/" .. tostring(Players.MaxPlayers)
 
     local lines = {}
